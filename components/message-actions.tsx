@@ -49,7 +49,7 @@ export function PureMessageActions({
                   .trim();
 
                 if (!textFromParts) {
-                  toast.error("There's no text to copy!");
+                  toast.error("wetin you wan copy? Nothing dey here!");
                   return;
                 }
 

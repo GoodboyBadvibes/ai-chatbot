@@ -279,7 +279,7 @@ function PureMultimodalInput({
       <Textarea
         data-testid="multimodal-input"
         ref={textareaRef}
-        placeholder="Send a message..."
+        placeholder="Send message..."
         value={input}
         onChange={handleInput}
         className={cx(
@@ -297,7 +297,7 @@ function PureMultimodalInput({
             event.preventDefault();
 
             if (status !== 'ready') {
-              toast.error('Please wait for the model to finish its response!');
+              toast.error('You go try wait, make the modal finish wetin him dey do!');
             } else {
               submitForm();
             }

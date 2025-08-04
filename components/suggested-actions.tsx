@@ -20,24 +20,24 @@ function PureSuggestedActions({
 }: SuggestedActionsProps) {
   const suggestedActions = [
     {
-      title: 'What are the advantages',
-      label: 'of using Next.js?',
-      action: 'What are the advantages of using Next.js?',
+      title: 'Abeg explain wetin AI mean',
+      label: 'like say I be pikin.',
+      action: 'Abeg explain wetin AI mean like say I be pikin.',
     },
     {
-      title: 'Write code to',
-      label: `demonstrate djikstra's algorithm`,
-      action: `Write code to demonstrate djikstra's algorithm`,
+      title: 'Wetin I fit learn',
+      label: `wey go quick dey bring money?`,
+      action: `Wetin I fit learn wey go quick dey bring money?`,
     },
     {
-      title: 'Help me write an essay',
-      label: `about silicon valley`,
-      action: `Help me write an essay about silicon valley`,
+      title: 'Wetin I go do if malaria dey worry me',
+      label: `but I no wan take medicine?`,
+      action: `Wetin I go do if malaria dey worry me but I no wan take medicine?`,
     },
     {
-      title: 'What is the weather',
-      label: 'in San Francisco?',
-      action: 'What is the weather in San Francisco?',
+      title: 'Wetin person go talk',
+      label: ' wey go make woman smile?',
+      action: 'Wetin person go talk wey go make woman smile?',
     },
   ];
 

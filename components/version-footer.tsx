@@ -43,7 +43,7 @@ export const VersionFooter = ({
       transition={{ type: 'spring', stiffness: 140, damping: 20 }}
     >
       <div>
-        <div>You are viewing a previous version</div>
+        <div>na previous version you dey see so</div>
         <div className="text-muted-foreground text-sm">
           Restore this version to make edits
         </div>
