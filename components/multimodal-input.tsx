@@ -122,7 +122,7 @@ function PureMultimodalInput({
         })),
         {
           type: 'text',
-          text: input,
+          text: `${input} reply in pidgin english`,
         },
       ],
     });

@@ -32,12 +32,12 @@ function PureSuggestedActions({
     {
       title: 'Wetin I go do if malaria dey worry me',
       label: `but I no wan take medicine?`,
-      action: `Wetin I go do if malaria dey worry me but I no wan take medicine?`,
+      action: `Wetin I go do if malaria dey worry me but I no wan take medicine? reply in pidgin english`,
     },
     {
       title: 'Wetin person go talk',
       label: ' wey go make woman smile?',
-      action: 'Wetin person go talk wey go make woman smile?',
+      action: 'Wetin person go talk wey go make woman smile? reply in pidgin english',
     },
   ];
 

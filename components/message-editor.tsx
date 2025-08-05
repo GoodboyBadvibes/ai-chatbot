@@ -30,7 +30,9 @@ export function MessageEditor({
   const [isSubmitting, setIsSubmitting] = useState<boolean>(false);
 
   const [draftContent, setDraftContent] = useState<string>(
-    getTextFromMessage(message),
+    getTextFromMessage(message).includes('reply in pidgin')
+      ? getTextFromMessage(message).replace(/reply in pidgin english/gi, '')
+      : getTextFromMessage(message),
   );
   const textareaRef = useRef<HTMLTextAreaElement>(null);
 
@@ -48,7 +50,9 @@ export function MessageEditor({
   };
 
   const handleInput = (event: React.ChangeEvent<HTMLTextAreaElement>) => {
-    setDraftContent(event.target.value);
+    setDraftContent(event.target.value.includes('reply in pidgin')
+      ? event.target.value.replace(/reply in pidgin english/gi, '')
+      : event.target.value);
     adjustHeight();
   };
 

@@ -142,7 +142,10 @@ const PurePreviewMessage = ({
                             message.role === 'user',
                         })}
                       >
-                        <Markdown>{sanitizeText(part.text)}</Markdown>
+                        <Markdown>{sanitizeText(
+    part.text.includes('reply in pidgin')
+      ? part.text.replace(/reply in pidgin english/gi, '')
+      : part.text)}</Markdown>
                       </div>
                     </div>
                   );
